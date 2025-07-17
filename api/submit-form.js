@@ -20,8 +20,9 @@ export default async function handler(req, res) {
     body: JSON.stringify({
       access_key: accessKey,
       from_name: full_name, // Now using full_name
+      full_name,
       email,
-      subject,  // Dynamic subject
+      subject,
       message
     })
   });
