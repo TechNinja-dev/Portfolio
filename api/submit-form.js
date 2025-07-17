@@ -6,6 +6,7 @@ export default async function handler(req, res) {
   const { name, email, message } = req.body;
 
   const accessKey = process.env.WEB3FORM_KEY;
+  console.log(accessKey)
 
   if (!accessKey) {
     console.error("❌ WEB3FORM_KEY is not defined!");
