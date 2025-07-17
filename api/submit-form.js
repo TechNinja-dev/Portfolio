@@ -20,7 +20,7 @@ export default async function handler(req, res) {
     },
     body: JSON.stringify({
       access_key: accessKey,
-      from_name: name || "Portfolio Visitor",
+      full_name,
       email,
       message,
       subject: "Portfolio Contact"
