@@ -1,22 +1,31 @@
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
-    res.setHeader('Allow', ['POST']);
-    return res.status(405).end(`Method ${req.method} Not Allowed`)
+    return res.status(405).json({ message: 'Method Not Allowed' });
   }
 
-  const { name, email, message } = req.body
+  const { name, email, message } = req.body;
+
+  const accessKey = process.env.WEB3FORM_KEY;
+
+  if (!accessKey) {
+    console.error("❌ WEB3FORM_KEY is not defined!");
+    return res.status(500).json({ message: "Missing access key" });
+  }
+
   const response = await fetch("https://api.web3forms.com/submit", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: {
+      "Content-Type": "application/json"
+    },
     body: JSON.stringify({
-      access_key: process.env.WEB3FORM_KEY,
-      from_name: name,
+      access_key: accessKey,
+      from_name: name || "Portfolio Visitor",
       email,
       message,
       subject: "Portfolio Contact"
     })
-  })
+  });
 
-  const json = await response.json()
-  return res.status(response.status).json(json)
+  const data = await response.json();
+  return res.status(response.status).json(data);
 }
