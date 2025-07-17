@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakhar Srivastava | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Prakhar Srivastava</a>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <!-- <a href="#experience">Experience</a> -->
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Python Developer | ML Enthusiast | Problem Solver</h1>
+                <p>Crafting efficient code for AI-driven web applications. Currently mastering ML while building with Django.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                      As a Python developer with a focus on AI/ML, I bridge the gap between theory and real-world applications. 
+                      Currently interning at <strong>Labmentix</strong> to deepen my machine learning expertise, while also bringing 
+                      hands-on experience from my prior web development internship with Django.
+                    </p>
+                    <p>
+                      My academic journey—a BCA specializing in AI/ML (powered by IBM)—fuels my passion for building scalable, 
+                      data-driven solutions. I thrive in disciplined environments where multitasking meets problem-solving.
+                    </p>
+                    <p>
+                      When not coding, you’ll find me exploring AI research papers, contributing to open-source projects, 
+                      or optimizing my workflow with productivity hacks.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="Images/my.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <div id="pop">
+        <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+        <span id="cont"></span>
+        <img src="" alt="" id="pop-img">
+        <div class="button-container">
+            <a href="" target="_blank" id="v_site">
+                <button id="site" >Visit</button>
+            </a>
+            <a href="" target="_blank" id="g_site">
+                <button id="git">GitHub</button>
+            </a>
+        </div>
+    </div>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" id="dmart">
+                    <div class="project-image">
+                        <img src="Images/dmart.png" alt="Developer Mart">
+                    </div>
+                    <div class="project-info">
+                        <h3>Developer Mart</h3>
+                        <p>A one-stop web platform for developers of all levels — from rookies to pros.
+                            Explore programming resources, write and run code live in the browser (powered by Gemini AI), and access tutorials.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML | CSS | JS</span>
+                            <span class="tag">Code Ediotrs | API</span>
+                            <span class="tag">Learning</span>
+                            <span class="tag">Font-Awesome</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="diap">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mobile app project">
+                    </div>
+                    <div class="project-info">
+                        <h3>DiaPredict: Your AI Health Guardian</h3>
+                        <p>DiaPredict is a machine learning project that predicts whether a patient is diabetic or not based on various medical features.</p>
+                        <div class="project-tags">
+                            <span class="tag">Pyhton | Pandas</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">SVM</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">Tailwind-CSS</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="ecom">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="E-commerce project">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Platform Redesign</h3>
+                        <p>Complete redesign of a fashion retailer's online store, resulting in 35% increase in conversion rate.</p>
+                        <div class="project-tags">
+                            <span class="tag">E-commerce</span>
+                            <span class="tag">Conversion Optimization</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-container">
+            <!-- Python & ML -->
+            <div class="skill-category">
+                <h3>Python & Machine Learning</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Python Programming</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Machine Learning</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Data Analysis (Pandas, NumPy)</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Django Framework</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML/CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Problem Solving -->
+            <div class="skill-category">
+                <h3>Other</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Data Structures & Algorithms</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Problem Solving</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Git & Version Control</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Experience Section -->
+    <!-- <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - Present</div>
+                        <h3>Senior Product Designer</h3>
+                        <p>TechSolutions Inc.</p>
+                        <p>Lead designer for the company's flagship SaaS product, working closely with engineering and product teams to deliver features that meet user needs.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 - 2021</div>
+                        <h3>Product Designer</h3>
+                        <p>DesignWorks Agency</p>
+                        <p>Worked with multiple clients across industries to design digital products, from initial research to final implementation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2015 - 2018</div>
+                        <h3>UX Designer</h3>
+                        <p>Digital Innovations</p>
+                        <p>Focused on improving user experience for the company's e-commerce platform, conducting user testing and implementing design improvements.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2013 - 2015</div>
+                        <h3>Junior Designer</h3>
+                        <p>Creative Studio</p>
+                        <p>Assisted senior designers with various projects, developed design skills, and contributed to small-scale projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's collaborate</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i>✉️</i>
+                            <span>prakharsrivastava019@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i>📱</i>
+                            <span>+91 97xxxxxxxx</span>
+                        </div>
+                        <div class="contact-item">
+                            <i>📍</i>
+                            <span>Uttar Pradesh,India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="linkedin.com/in/prakhar-srivastava-58bb85303" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://leetcode.com/u/Prakhar_Logics/" aria-label="Leetcode"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://github.com/TechNinja-dev" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <!-- <a href="#" aria-label="Twitter"></a> -->
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="myForm"  action="/api/submit-form" method="POST">
+                        <input type="text" name="full_name" placeholder="Your Name" aria-label="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" aria-label="Your Email" required>
+                        <input type="text" name="subject" placeholder="Subject" aria-label="Subject">
+                        <textarea name="message" placeholder="Your Message" aria-label="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Prakhar Srivastava. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
