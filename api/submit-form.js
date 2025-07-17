@@ -3,7 +3,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ message: 'Method Not Allowed' });
   }
 
-  const { name, email, subject, message } = req.body;
+  const { full_name, email, subject, message } = req.body;
 
   const accessKey = process.env.WEB3FORMS_KEY;
 
@@ -19,7 +19,7 @@ export default async function handler(req, res) {
     },
     body: JSON.stringify({
       access_key: accessKey,
-      from_name: name, // Now using full_name
+      from_name: full_name, // Now using full_name
       email,
       subject,  // Dynamic subject
       message
