@@ -19,9 +19,9 @@ export default async function handler(req, res) {
     },
     body: JSON.stringify({
       access_key: accessKey,
-      from_name: full_name || "Portfolio Visitor",  // Now using full_name
+      from_name, // Now using full_name
       email,
-      subject: `New message from ${full_name || "Visitor"}`,  // Dynamic subject
+      subject,  // Dynamic subject
       message
     })
   });
