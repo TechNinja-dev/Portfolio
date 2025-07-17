@@ -6,7 +6,6 @@ export default async function handler(req, res) {
   const { name, email, message } = req.body;
 
   const accessKey = process.env.WEB3FORMS_KEY;
-  console.log(accessKey)
 
   if (!accessKey) {
     console.error("❌ WEB3FORM_KEY is not defined!");
@@ -20,10 +19,10 @@ export default async function handler(req, res) {
     },
     body: JSON.stringify({
       access_key: accessKey,
-      full_name,
+      from_name: full_name || "Portfolio Visitor",  // Now using full_name
       email,
-      message,
-      subject: "Portfolio Contact"
+      subject: `New message from ${full_name || "Visitor"}`,  // Dynamic subject
+      message
     })
   });
 
