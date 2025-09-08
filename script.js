@@ -73,16 +73,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 cont = {
     dmart: "Developer Mart",
     diap: "DiaPredict", 
-    ecom: "E-commerce Platform"
+    ai: "AI Image Studio"
 };
-pop_img={dmart:"dmart.png",diap:"diap.jpg",ecom:"eom.jpg"};
+pop_img={dmart:"Images/dmart.png",diap:"Images/diap.jpg",ai:"Images/ai.png"};
 v_url= {dmart:"https://developer-mart.vercel.app/",
     diap:"https://github.com/TechNinja-dev/DiaPredict.git",
-ecom:"#"};
+ai:"https://github.com/TechNinja-dev/AI-Decription.git"};
 
 g_url={ dmart:"https://github.com/TechNinja-dev/Developer-Mart.git",
         diap:"https://github.com/TechNinja-dev/DiaPredict.git",
-        ecom:"#"   
+        ai:"https://github.com/TechNinja-dev/AI-Decription.git"   
 }
 
 // Get all elements
