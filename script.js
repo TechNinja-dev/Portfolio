@@ -78,7 +78,7 @@ cont = {
 pop_img={dmart:"Images/dmart.png",diap:"Images/diap.jpg",ai:"Images/ai.png"};
 v_url= {dmart:"https://developer-mart.vercel.app/",
     diap:"https://github.com/TechNinja-dev/DiaPredict.git",
-ai:"https://github.com/TechNinja-dev/AI-Decription.git"};
+ai:"https://ai-decription-l7ls2bwnq-prakhar-srivastavas-projects-e942c785.vercel.app/"};
 
 g_url={ dmart:"https://github.com/TechNinja-dev/Developer-Mart.git",
         diap:"https://github.com/TechNinja-dev/DiaPredict.git",
