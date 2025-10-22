@@ -1,4 +1,3 @@
 .env
-config.js
 convert.py
-photo_base64.js
+Images/my.jpg
