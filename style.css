@@ -392,7 +392,7 @@
             gap: 3rem;
         }
         
-        .contact-info h3 {
+        .contact-info h2 {
             margin-bottom: 1.5rem;
         }
         
@@ -414,15 +414,15 @@
         
         .social-links {
             display: flex;
-            gap: 1rem;
+            gap: 1.8rem;
         }
         
         .social-links a {
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
+            width: 47px;
+            height:47px;
             border-radius: 50%;
             background-color: var(--gray);
             transition: all 0.3s ease;
@@ -446,6 +446,13 @@
         .contact-form textarea {
             height: 150px;
             resize: vertical;
+        }
+        .btn{
+            font-size: 0.9rem;
+        }
+
+        .social-links i{
+            font-size: 25px;
         }
         
         /* Footer */
