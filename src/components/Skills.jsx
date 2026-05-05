@@ -6,7 +6,7 @@ const skillsData = [
     category: "Python & Machine Learning",
     items: [
       { name: "Python Programming", level: 90 },
-      { name: "Machine Learning", level: 85 },
+      { name: "Machine Learning & Generative AI", level: 85 },
       { name: "Data Analysis (Pandas, NumPy, Matplotlib)", level: 80 }
     ]
   },
