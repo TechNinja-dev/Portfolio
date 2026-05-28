@@ -21,12 +21,12 @@ const projectData = {
     tags: ["React", "FastAPI", "MongoDB", "Generative AI"]
   },
   ai: {
-    title: "AI Image Studio",
-    img: "/ai.png",
-    v_url: "https://ai-decription-l7ls2bwnq-prakhar-srivastavas-projects-e942c785.vercel.app/",
-    g_url: "https://github.com/TechNinja-dev/AI-Decription.git",
-    desc: "An AI-powered application using Google's Gemini models to turn text into visuals and analyze uploaded images, letting you save your generated creations to a private gallery.",
-    tags: ["Generative AI", "MongoDB", "FastAPI", "React"]
+    title: "Brain Tumour Prediction",
+    img: "/brain-tumour.png",
+    v_url: "https://github.com/TechNinja-dev/Brain-Tumour-Prediction",
+    g_url: "https://github.com/TechNinja-dev/Brain-Tumour-Prediction",
+    desc: "A Brain Tumor Prediction System built using Deep Learning and deployed with an interactive Streamlit web UI. It allows users to upload MRI scans and get predictions on whether a brain tumor is present.",
+    tags: ["Deep Learning", "Streamlit", "Python", "Machine Learning"]
   }
 };
 
