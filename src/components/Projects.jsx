@@ -10,7 +10,7 @@ const projectData = {
     v_url: "https://developer-mart.vercel.app/",
     g_url: "https://github.com/TechNinja-dev/Developer-Mart.git",
     desc: "A one-stop web platform for developers of all levels — from rookies to pros. Explore programming resources, write and run code live in the browser (powered by Gemini AI), and access tutorials.",
-    tags: ["HTML", "CSS", "JS", "Code Editors", "API", "Learning", "PHP"]
+    tags: ["ReactJS", "Code Editors", "API", "Learning", "FastAPI"]
   },
   craftsathi: {
     title: "CraftSathi",
